@@ -1,37 +1,86 @@
-/* Variables */
-/* Small Navigation */
-.logo-small {
-  float: right; }
+.subnav-hero-section {
+  text-align: center;
+  background: #1779ba;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+}
 
-  .title-bar {
-    padding: 0 .5rem; }
+.subnav-hero-section .subnav-hero-headline {
+  color: #fefefe;
+}
 
-    .menu-icon,
-    .title-bar-title {
-      position: relative;
-      top: 10px; }
+.subnav-hero-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+}
 
-      /* Medium-Up Navigation */
-      @media only screen and (min-width: 40rem) {
-        .logo-wrapper {
-          position: relative; }
-          .logo-wrapper .logo {
-            width: 118px;
-            height: 92px;
-            position: absolute;
-            left: 50%;
-            right: 50%;
-            top: -6px;
-            margin-left: -59px; }
+.subnav-hero-subnav li {
+  float: none;
+  display: inline-block;
+}
 
-            .top-bar-right {
-              width: 50%;
-              padding-left: 86px; }
-              .top-bar-right ul {
-                float: left; }
+.subnav-hero-subnav li a {
+  padding: 0.9rem 1rem;
+  font-size: 0.75rem;
+  color: #fefefe;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.35s ease-in-out;
+}
 
-                .top-bar-left {
-                  width: 50%;
-                  padding-right: 86px; }
-                  .top-bar-left ul {
-                    float: right; } }
+.subnav-hero-subnav li a.is-active {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+.subnav-hero-subnav li a:hover {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+.topbar-center-logo {
+  background: #2c3840;
+}
+
+.topbar-center-logo .menu {
+  background: #2c3840;
+}
+
+.topbar-center-logo .menu a {
+  color: #fefefe;
+}
+
+.topbar-center-logo .top-bar-center {
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .topbar-center-logo .top-bar-center {
+    display: none;
+  }
+}
+
+.topbar-center-logo-mobile {
+  background: #2c3840;
+}
+
+.topbar-center-logo-mobile .menu-icon {
+  vertical-align: text-top;
+}

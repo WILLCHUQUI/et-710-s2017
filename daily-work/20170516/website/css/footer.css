@@ -1,40 +1,86 @@
-@charset "UTF-8";
-.hero {
-  background: url("http://static.pexels.com/wp-content/uploads/2014/07/beach-coast-holiday-2190-825x550.jpg") no-repeat center center;
-  background-size: cover;
-  height: 50vh;
-  overflow: hidden; }
-  .hero h1 {
-    color: #fff;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
+.marketing-site-footer {
+  background: #2c3840;
+  color: #8aa0ae;
+  padding: 2rem 0 0;
+}
 
-    .footer {
-      background-color: #292c2f;
-      text-align: center;
-      font-size: 1.2rem;
-      padding: 4rem; }
-      .footer p.slogan {
-        color: #8d9093;
-        font-size: 1.8rem;
-        margin: 0 0 1rem; }
-        .footer p.copywrite {
-          color: #8f9296;
-          font-size: 0.875rem;
-          margin: 0; }
-          .footer .links a {
-            list-style: none;
-            font-weight: bold;
-            color: #ffffff;
-            padding: 3rem 0 2rem;
-            margin: 0; }
-            .footer .links a::after {
-              content: "•";
-              padding: 0 0.4rem 0 0.8rem; }
-              .footer .links a:last-child::after {
-                content: "";
-                padding: 0 0.4rem 0 0.8rem; }
+.marketing-site-footer .marketing-site-footer-menu-social a {
+  color: #fefefe;
+}
+
+.marketing-site-footer .column-block {
+  margin-bottom: 30px;
+}
+
+.marketing-site-footer > .row {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .marketing-site-footer .columns {
+    margin-bottom: 2rem;
+  }
+}
+
+.marketing-site-footer-name {
+  color: #fefefe;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.marketing-site-footer-title {
+  color: #fefefe;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.marketing-site-footer-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.marketing-site-footer-block .fa {
+  font-size: 2rem;
+  color: #020304;
+}
+
+.marketing-site-footer-block p {
+  margin-left: 1rem;
+  line-height: 1.125rem;
+}
+
+.marketing-site-footer-bottom {
+  background: #020304;
+  padding: 1rem 0;
+}
+
+.marketing-site-footer-bottom p,
+.marketing-site-footer-bottom .menu {
+  margin-bottom: 0;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
+  color: #8aa0ae;
+}
+
+@media screen and (max-width: 63.9375em) {
+  .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 63.9375em) {
+  .marketing-site-footer-bottom {
+    text-align: center;
+  }
+}
